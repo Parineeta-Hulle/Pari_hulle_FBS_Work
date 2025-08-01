@@ -1,0 +1,6 @@
+p = int(input("Enter the principle of amount:"))
+r= float(input("Enter the rate of amount:"))
+n= int(input("Enter the year of amount:"))
+t= int(input("Enter the time of amount:"))
+intrest = p*(1+(r/n)**(n*t))
+print("compound intrest:",intrest)
